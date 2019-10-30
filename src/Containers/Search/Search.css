@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+#search{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:700px;
+    height: 300px;
+    background: rgb(249,249,249);
+    box-sizing: border-box;
+    padding:30px;
+    /* border-box:3px 7px 10px -20px; */
+    /* text-align: center; */
+}
+
+#search input[type='text']{
+    width:100%;
+    float: left;
+    padding:15px;
+    box-sizing: border-box;
+    /* height:10px; */
+
+}
+
+#search input[type='submit']{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding:20px;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:50px;
+
+}
+
+#search-results{
+    /* background: red; */
+    background:rgb(249,249,249);
+    border:2px solid black;
+    width:100%;
+    padding:10px;
+    /* height:200px; */
+    margin:100px auto;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+
+    /* float:left; */
+    /* algin:center; */
+    
+}
+/* 
+#search-results{
+    background:white;
+    border:2px solid black;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform : translate(-50%,-50%);
+    width:200px;
+    height:100px;
+    z-index:-10;
+}  */
+
+/* #search after */
